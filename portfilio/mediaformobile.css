@@ -1,0 +1,142 @@
+/* media for mobile version */
+@media (max-width:900px) {
+
+    /* top display navi mobile menu icon */
+    nav .navicon{
+        /* display:block; */
+        display: inline-block;
+    }
+    /* after click bar bg and alignment  */
+    nav ul{
+        padding: 0%;
+        position: fixed;
+        top: 72px;
+        right: -100%;
+        background: #1f2123;
+        height: 100vh;
+        width: 75%;
+        display: grid;
+        transition: 1s ease all;
+    }
+
+    #check:checked ~ ul{
+        right:0%;    
+    }
+
+    nav ul li{
+        padding: 0%;
+        line-height: 0%;
+        margin: 20px 0px;
+        text-align: center;
+    
+    }
+
+    /* onhover change for mobile website */
+    nav ul li a:hover{
+        border-radius: 0%;
+        color: #3fa0ef;
+        /* background-color: #1A74E2; */
+        border:2px solid #1A74E2; 
+        border-style: none none solid none;
+        
+    }
+
+    .hi{
+        text-align: center;
+        align-items: center;
+        padding: 0%;
+    }
+
+    .hi-name{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        margin-top: 250px;
+        align-items: center;
+    }
+    /* text coloring */
+    .hi-name h1{
+        color: #6BD0FF;
+        
+    }
+    /* text color */
+    .hi-name h2{
+        color: #6bd0ff;
+        
+    }
+    /* text colot */
+    .hi-name h3{
+        color: #6bd0ff;
+        
+    }
+    /* hiding the contact me button in mobile version  */
+    .hi-name a h4{
+        margin-top: 20px;
+        padding: 4.2%;
+        text-align: center;
+    }
+    .hi-name a h4:hover{
+        background: transparent;
+        color: blue;
+    }
+    /* hiding bg image of desktop in mobile */
+    .image{
+        display: none;
+    }
+
+    .imagemobile{
+        display:inline-block;
+        width: 100%;
+        max-width: 700px;
+        height: auto;
+    }
+    /* creating a face bg on mobile version */
+
+    
+    /* for mobile version link height: ; */
+    .about a{
+        line-height: 1.5;
+    }
+
+    /* para of about left and right change */
+    .about p{
+        margin-top: 0%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    /* skill para assiging */
+    .skills p1{
+        margin-top: 0%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    /* percentage of my skill section to center for mobile version */
+    .skilled{
+        margin-top: 0%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .html-skilled,
+    .py-skilled,
+    .pr-editing,
+    .js-skilled,
+    .ps-editing,
+    .ae-editing,
+    .fi-editing{
+        margin-top: 0%;
+        margin-left: 10px;
+        margin-right: 10px;        
+    }
+    
+    .contact img{
+        height: auto;
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .bottom{
+        box-shadow: 0px;
+    }
+}

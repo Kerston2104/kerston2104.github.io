@@ -1,0 +1,30 @@
+*{
+    margin: 0%;
+    padding:0%
+}
+body{
+    background: #2f2d2d;
+    text-align: center;
+    margin-top: 50vh;
+}
+/* text color change */
+H1{
+    color: #ff3333;
+}
+/* designing button */
+button{
+    color: #F67280 ;
+    padding: 20px;
+    border-radius: 20px;
+    background: #2f2d2d;
+    font-size: 30px;
+    margin-top: 30px;
+    border:none;
+    box-shadow: 2px 3px 4px rgb(0,0,0,0.6);
+    transition: 1s ease all;
+}
+button:hover{
+    box-shadow: 1px 2px 3px rgb(0,0,0,0.6);
+    border-radius: 50px;
+    color: crimson;
+}

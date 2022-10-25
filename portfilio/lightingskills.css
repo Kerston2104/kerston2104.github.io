@@ -1,0 +1,356 @@
+
+/* HEADING SKILL */
+
+.heading-skill{
+    text-align: center;
+    color: #1A74E2;
+}
+
+/* skilled section adding background to look like glass and aligning it center down from skill-sec*/
+.html-skilled,
+.py-skilled,
+.js-skilled,
+.skilled,
+.ps-editing,
+.ae-editing,
+.pr-editing,
+.fi-editing{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #0080ff;
+    /* text-shadow: 1px 1px 2px #6BD0FF; */
+    letter-spacing: 2px;
+    line-height: 2;
+    list-style: none;
+    background: rgb(255,255,255,0.05);
+    border-radius: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 26px;
+    box-shadow:3px 3px 4px #1A74E2;
+    transition: 00.3s ease all;
+}
+
+/* skilled hover effect to give neon background */
+.skilled:hover,
+.ps-editing:hover,
+.ae-editing:hover{
+    box-shadow:3px 5px 6px #1A74E2;
+    text-shadow: 1px 1px 2px #6BD0FF;
+}
+
+/* adding margin to leave space betweew two boxes */
+.html-skilled li,
+.js-skilled li,
+.skilled li,
+.py-skilled li,
+.ps-editing li,
+.ae-editing li,
+.pr-editing li,
+.fi-editing li{
+    margin: 20px;
+    padding: 30px;
+}
+
+/* text margin adding to seperate form images */
+.skilled h3,
+.py-skilled h3,
+.js-skilled h3,
+.html-skilled h3,
+.ps-editing h3,
+.ae-editing h3,
+.pr-editing h3,
+.fi-editing h3{
+    margin-left: 30px;
+}
+
+/* background of the blue gradient line to show my skill percentage */
+.percent,
+.html-percent,
+.js-percent,
+.py-percent,
+.pr-percent,
+.fi-percent{
+    background: transparent;
+    display: block;
+    margin-left: 30px;
+    height: 10px;
+    box-shadow:3px 3px 4px rgb(0, 128, 255,0.6);
+    border-radius: 10px;
+}
+
+/* adding blue line which act as a skill percentage */
+.percent span,
+.html-percent span,
+.js-percent span,
+.py-percent span,
+.fi-percent span{
+    margin-left: 0px;
+    height: 10px;
+    float: left;
+    background: linear-gradient(to right,#1a74e2,#3fa0ef);
+    border-radius: 10px;
+}
+
+/* html block to my skill perctage which as blue line width  */
+.html-skilled .html{
+    width: 75%;
+}
+
+/* css block to my skill perctage which as blue line width  */
+.skilled .css{
+    width: 60%;
+}
+
+/* javascript block to my skill perctage which as blue line width  */
+.js-skilled .javascript{
+    width: 5%;
+}
+
+/* adding logo of html css and js to make it float on left side and align logo to center */
+
+.html-skilled .html-logo,
+.skilled .css-logo,
+.js-skilled .js-logo,
+.py-skilled .py-logo{
+    float: left;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+/* python logo align */
+
+.py-logo{
+    float: left;
+    margin-left: 0px;
+}
+/* python skill percentage bar */
+
+.python{
+    width: 40%;
+}
+/* heading editing */
+
+.edit-heading{
+    text-align: center;
+    color: #1A74E2;
+}
+/* ps edit css glass blue bg */
+
+.ps-editing{
+    background: rgba(0, 0, 255, 0.04);
+}
+/* width of blue line in percentage */
+
+.ps-editing .photoshop{
+    width: 70%;
+}
+/* photo shop percentage bar shadow change */
+
+.ps-percent{
+    box-shadow: 3px 3px 4px rgba(17, 0, 255, 0.6);
+}
+/* aligning ps logo in left */
+
+.ps-editing .ps-logo{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.ps-editing:hover{
+    box-shadow:3px 4px 5px blue;
+}
+
+/* ae edithing bg */
+
+.ae-editing{
+    color: rgb(145,112,175);
+    background-color: rgba(174, 0, 255, 0.04);
+}
+/* image logo align */
+
+.ae-editing .ae-logo,
+.pr-percent .pr-logo{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+/* AFTER EFFECT STARTING */
+
+/* perecntage of skill in line */
+
+.ae-editing .aftereffect{
+    width: 50%;
+}
+
+.ae-percent{
+    background: transparent;
+    display: block;
+    margin-left: 30px;
+    height: 10px;
+    box-shadow:3px 3px 4px rgb(31,33 ,35 );
+    border-radius: 10px;
+}
+
+.ae-percent span{
+    margin-left: 0px;
+    height: 10px;
+    float: left;
+    background: linear-gradient(to right,#a91ae2,#ef3fe6);
+    border-radius: 10px;
+}
+
+.ae-editing{
+    box-shadow:1px 2px 3px rgba(174, 0, 255);
+}
+
+.ae-editing:hover{
+    box-shadow:3px 5px 6px #ef3fe6;
+    text-shadow: 1px 2px 2px rgb(16,1,38);
+}
+
+.ae-percent{
+    box-shadow:3px 3px 4px rgba(247, 0, 255, 0.6);
+}
+/* END OF .aftereffect */
+
+
+/* START OF HTML */
+
+.html-percent{
+    box-shadow:3px 3px 4px rgb(255, 89, 0,0.6);
+}
+
+.html-percent span{
+    background: linear-gradient(to right,rgb(255, 89, 0),orange);
+}
+
+.html-skilled{
+    color: orange;
+    box-shadow: 1px 2px 3px rgb(255, 89, 0);
+    background: rgb(255, 89, 0,0.07);
+}
+
+.html-skilled:hover{
+    text-shadow: 1px 2px 2px rgb(255, 89, 0);
+    box-shadow: 3px 4px 5px orange;
+}
+/* END HTML */
+
+/* START JS */
+
+
+.js-skilled{
+    color: #13150f;
+    background: rgb(240,219,79,0.06);
+    box-shadow: 1px 2px 3px black;
+}
+
+.js-percent span{
+    background: linear-gradient(to left,yellow,black);
+}
+
+.js-skilled:hover{
+    box-shadow: 3px 4px 5px yellow;
+    text-shadow: 1px 2px 2px yellow;
+}
+
+.js-percent{
+    box-shadow: 3px 3px 4px rgba(246, 255, 0, 0.3);
+}
+
+/* END OF JAVASCRIPT */
+
+/* PYTHON START */
+
+.py-percent{
+    box-shadow: 3px 3px 4px  rgba(0, 102, 255, 0.6);
+}
+.py-percent span{
+    background: linear-gradient(to left,rgb(0, 102, 255),rgb(255,207,63));
+}
+.py-skilled{
+    color: #3fa0ef;
+    box-shadow:1px 2px 3px yellow;
+    background: rgb(54,109,155,0.09);
+}
+.py-skilled:hover{
+    text-shadow: 1px 2px 2px yellow;
+    box-shadow: 3px 4px 5px#1A74E2;
+}
+
+/* END OF PYTHON */
+
+/* PREMIERE PRO */
+
+.pr-percent span{
+    margin-left: 0px;
+    height: 10px;
+    float: left;
+    background: linear-gradient(to left,#a91ae2,#ef3fe6);
+    border-radius: 10px;
+}
+
+
+/* percentage bar shadow and align */
+
+.pr-percent{
+    background: transparent;
+    display: block;
+    margin-left: 30px;
+    height: 10px;
+    box-shadow:3px 3px 4px rgb(255, 0, 157,0.6);
+    border-radius: 10px;
+}
+
+.premiere{
+    width: 40%;
+}
+
+.pr-editing{
+    color: rgb(209,113,243);
+    background: rgb(253, 0, 122,0.06);
+    box-shadow:1px 2px 3px #ef3fe6;
+}
+
+.pr-editing:hover{
+    text-shadow: 1px 2px 3px rgb(37,38,83);
+    box-shadow:3px 4px 5px  darkviolet;
+}
+
+.pr-logo{
+    float: left;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+/* END */
+
+/* figma start */
+
+.fi-editing .fi-logo{
+    float: left;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.fi-editing{
+    color: #0acf83;
+    background: rgb(10,207,131,.06);
+    box-shadow:1px 2px 3px #0acf83;
+}
+
+.fi-editing:hover{
+    box-shadow: 3px 4px 5px #fd6d59;
+    text-shadow: 1px 2px 2px #fd6d59;
+}
+
+.fi-percent{
+    box-shadow: 3px 3px 4px rgb(10,207,131,0.6);
+}
+.fi-percent span{
+    background: linear-gradient(to right,#0acf83,#fd6d59);
+}
+.figma{
+    width: 50%;
+}

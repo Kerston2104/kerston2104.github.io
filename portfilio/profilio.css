@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* adding scroller path */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* adding scrollbar track  */
+::-webkit-scrollbar-track {
+    background: transparent;
+    margin-block: 12px;
+    border-radius: 40px;
+}
+
+/* adding scroll to roller */
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(blue, #6bd0ff);
+    border-radius: 40px;
+}
+
+/* hover effect fo roller */
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(#6bd0ff, blue);
+    border-radius: 40px;
+}
+
+body {
+    background: #1f2123;
+}
+
+/* making top class enter */
+.top {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: fixed;
+}
+
+/*class navigbar size and */
+.navig {
+    background-color: #26282a;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/* adding logo width */
+.logo {
+    width: 50px;
+    padding: 10px;
+}
+
+/* MOBILE NAV ICON SIZE ADJUST */
+.navicon {
+    width: 30px;
+    /* border: 5px solid red; */
+    margin-right: 20px;
+}
+
+/* font name and letter space and arranging in straighe line */
+nav {
+    position: sticky;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    flex: 1;
+    text-align: right;
+    font-weight: bolder;
+}
+
+/* ALIGNING NAVE BAR TEXT */
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+/* giving colour to nav text,border rounded and padding */
+nav ul li a {
+    color: #1A74E2;
+    padding: 0em;
+    border-radius: 40px;
+    transition: 0.3s ease all;
+}
+
+/* on hover color an bg change for desktop*/
+nav ul li a:hover {
+    border-radius: 0%;
+    color: #6BD0FF;
+    /* background-color: #1A74E2; */
+    border: 2px solid #1A74E2;
+    border-style: none none solid none;
+    padding-bottom: 6px;
+
+}
+
+
+/* navigation bar pointer and hiding mobile nav icon */
+nav .navicon {
+    cursor: pointer;
+    display: none;
+}
+
+/* hiding check box visibility */
+#check {
+    visibility: hidden;
+}
+
+/* background hiding overflow
+don't add height to this */
+.hi {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hi-name {
+    flex-basis: 40%;
+    display: inline-block;
+    margin-left: 100px;
+    padding: 0%;
+    margin-top: 400px;
+    margin-bottom: 200px;
+}
+
+/* 1st text color and adding letter spacing */
+.hi-name h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: #6BD0FF;
+    padding: 0%;
+    margin: 0%;
+}
+
+/* 2nd text color and adding letter spacing */
+.hi-name h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: #3fa0ef;
+    padding: 0%;
+}
+
+/* 3rd text color and adding letter spacing */
+.hi-name h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    padding: 0%;
+    color: #1A74E2;
+}
+
+/* 4th text color and adding letter spacing and style to hover effect */
+.hi-name h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #6BD0FF;
+    border: 2px solid #6BD0FF;
+    padding: 15px;
+    display: inline-block;
+    top: 30px;
+    border-radius: 40px;
+    margin-left: 30px;
+    transition: 0.3s ease all;
+}
+
+/* adding hover effect for above text */
+.hi-name a h4:hover {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: inline-block;
+    border: 2px solid #6BD0FF;
+    /* background-color: #1f2123; */
+    color: #1A74E2;
+    border-style: dotted none dotted none;
+    border-radius: 0%;
+}
+
+/* adding my image on the right side */
+.image {
+    /* float: right; */
+    max-width: 700px;
+    margin-top: 120px;
+    width: auto;
+    height: 100%;
+    /* margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 100px; */
+}
+.imagemobile{
+    display: none;
+}
+
+/* aligning all text inside about me to center */
+.about-sec {
+    /* border-style: none solid solid solid; */
+    text-align: center;
+    margin-bottom:210px;
+}
+
+/* color for about me text heading */
+.about h1 {
+    color: #1A74E2;
+    /* border:2px solid #1A74E2;
+    border-style: solid none none none; */
+}
+
+/* side heading color adding */
+.about h3 {
+    /* border:2px solid #e6e8e3; */
+    color: #3fa0ef;
+}
+
+/* paragraph about me text align and color  */
+.about p {
+    text-indent: 50px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    justify-content: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    font-size: 18px;
+    font-weight: 900;
+    background: rgb(255, 255, 255, 0.02);
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    border: 2px solid #0055ab;
+    color: #6BD0FF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* about me text color font size adding */
+.about a {
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: #6BD0FF;
+    /* position: relative; don't overlap occur */
+    font-family: 'Baskervville', serif;
+    border-style: none none solid none;
+}
+
+/* link hover if about me school and college */
+.about a:hover {
+    color: #1A74E2;
+}
+
+/* align all content inside skill section to center */
+.skill-sec {
+    text-align: center;
+}
+
+/* heading of skill secton color changing */
+.skills h1 {
+    color: #1A74E2;
+}
+
+/* sideheading of skill section color changing */
+.skills h2 {
+    color: #3fa0ef;
+}
+
+/* changing content para of
+ skill section and bg adding color changing */
+.skills p1 {
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    justify-content: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    font-size: 18px;
+    font-weight: 900;
+    background: rgb(255, 255, 255, 0.02);
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid #0055ab;
+    border-radius: 15px;
+    color: #6BD0FF;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.uxui-heading {
+    color: #0055ab;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* contat section */
+.contact {
+    text-align: center;
+}
+
+.contact h1 {
+    color: rgb(142, 32, 32);
+}
+
+.contact p {
+    color: rgb(142, 32, 32);
+    font-size: 39px;
+    font-weight: 900;
+    width: 100%;
+}
+
+.contact h2 {
+    color: rgb(142, 32, 32);
+    margin-top: 30px;
+    font-weight: 900;
+
+}
+
+.contact img {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.contact a {
+    font-size: 26px;
+    font-weight: 800;
+    background: rgb(142, 32, 32);
+    color: #1f2123;
+    padding: 20px;
+    font-weight: bolder;
+    border-radius: 20px;
+    box-shadow: 5px 6px 7px black;
+    transition: 1s ease all;
+}
+
+.contact a:hover {
+    box-shadow: 1px 2px 3px rgb(0, 0, 0, );
+    border-radius: 40px;
+}
+
+.social-sec {
+    text-align: center;
+    color: #1A74E2;
+}
+
+.instagram {
+    text-align: center;
+    color: rgb(229, 82, 71);
+}
+
+.insta img {
+    background: rgb(246, 128, 64, 0.06);
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 5px 6px 7px black;
+}
+
+.insta img:hover {
+    box-shadow: 1px 2px 3px black;
+}
+
+.instagram h3 {
+    color: rgb(229, 82, 71);
+    font-family: 'Cookie', cursive;
+    font-size: 42px;
+    margin-top: 20px;
+}
+
+.soctxt {
+    display: inline-block;
+}
+
+.linkedin {
+    text-align: center;
+}
+
+.linked img {
+    background: rgb(0, 127, 188);
+    padding: 10px;
+    border-radius: 40px;
+    box-shadow: 5px 6px 7px black;
+}
+
+.linked img:hover {
+    box-shadow: 1px 2px 3px black;
+}
+
+.linkedin span {
+    color: white;
+}
+
+.linkedin h3 {
+    font-size: 26px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
+    color: rgb(0, 126, 187);
+}
+
+.twitter {
+    text-align: center;
+}
+
+.tweet img {
+    background: rgb(255, 255, 255, 0.06);
+    padding: 10px;
+    border-radius: 40px;
+    box-shadow: 5px 6px 7px black;
+}
+
+.tweet img:hover {
+    box-shadow: 1px 2px 3px black;
+}
+
+.twitter h3 {
+    font-size: 26px;
+    margin-top: 20px;
+    font-weight: 700px;
+    color: rgb(85, 173, 238);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.mainmenu {
+    text-align: center;
+}
+
+.mainmenu a {
+    color: #1f2123;
+    background: #6bd0ff;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 26px;
+    box-shadow: 4px 5px 6px black;
+}
+
+.mainmenu a:hover {
+    box-shadow: 1px 2px 3px black;
+}
+
+.bottom {
+    text-align: center;
+    color: #1A74E2;
+    background: #26282a;
+    justify-content: center;
+    display: flex;
+}
+
+.bottom p {
+    margin-top: 20px;
+}
