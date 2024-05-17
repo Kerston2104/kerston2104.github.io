@@ -192,7 +192,8 @@ don't add height to this */
 
 /* adding my image on the right side */
 .image {
-    /* float: right; */
+    float: right;
+    
     max-width: 700px;
     margin-top: 120px;
     width: auto;

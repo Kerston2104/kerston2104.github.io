@@ -29,9 +29,15 @@
     align-items: center;
     background: #1f2123;
 }
+
+.wrapper .left .name h2{
+    color:white;
+    text-align: center;
+}
  
 .TBA {
-    background: url('../image/tba.jpg');
+    background: linear-gradient(45deg,#7689de ,#a9dec3);
+    
     display: block;
 }
 
@@ -44,7 +50,7 @@
 }
 /* color of right side text */
 .right{
-    color: white;
+    color: black;
 }
 .left{
     color: black;
@@ -64,14 +70,14 @@
 /* changing button color when hover */
 .wrapper .right .name .button:hover {
     background: black;
-    color:#cbcb83;
+    color:#7689de;
     transition: 0.5s ease all;
     
 }
 
 .wrapper .left .name .button:hover {
     background: black;
-    color: #1A74E2;
+    color: aqua;
     transition: 0.5s ease all;
 }
 
@@ -91,7 +97,7 @@
 .wrapper .right:hover .image{
     transform: scale(1.1);
 }
- 
+
 
 
 @media screen and (min-width:900px) {

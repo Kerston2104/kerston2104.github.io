@@ -1,0 +1,242 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* adding scroller path */
+::-webkit-scrollbar {
+    width: 7px;
+    background-color: aquamarine;
+}
+
+/* adding scrollbar track  */
+::-webkit-scrollbar-track {
+    background: transparent;
+    margin-block: 12px;
+    border-radius: 40px;
+}
+
+/* adding scroll to roller */
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(aqua,#7689de);
+    border-radius: 40px;
+}
+
+/* hover effect fo roller */
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(#7689de, aqua);
+    border-radius: 40px;
+}
+
+body{
+    background: linear-gradient(45deg,#7689de ,#a9dec3);
+    padding: 0px 30px 0px 0px;
+    padding-bottom: 0%;
+
+}
+
+.container{
+    margin-left: 90px;
+}
+
+.container .heading{
+
+    text-align: center;
+    padding-bottom: 15px;
+    color: aliceblue;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    font-size: 50px;
+}
+
+.container .boxcont{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* grid-template-columns:repeat(autofit, minmax(270px,1fr)) ; */
+    gap: 0px;
+}
+
+.container .boxcont .box{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .92);
+    border-radius: 10px;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 30px 20px;
+    width: 85%;
+    margin: 20px;
+}
+
+.container .boxcont .box:hover{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+.container .boxcont .box img{
+    height: 100px;
+}
+
+.container .boxcont .box h3{
+    color: #1f2123;
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+.container .boxcont .box h5{
+    color: black;
+}
+
+.container .boxcont .box h4{
+    color: black;
+}
+
+.container .boxcont .box p{
+    color: #1f2123;
+    font-size: 15px;
+    line-height: 1.8 ;
+}
+
+.bottom {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.bottom p{
+    margin-top: 20px;
+    font-weight: bold;
+    text-shadow: 0px 5px 10px #1f2123;
+    margin-bottom: 20px;
+}
+ 
+@media only screen and (max-width:64em) and (max-width:26.5625em){ 
+    .container{
+        margin-left: 0px;
+    }
+
+    .container .heading{
+        font-size: 30px;
+    }
+
+    body{
+        background: linear-gradient(45deg,#7689de ,#a9dec3) ;
+    }
+    
+    .container .boxcont{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+    }
+    
+    .container .boxcont .box{
+        box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+        border-radius: 10px;
+        background-color: aliceblue;
+        text-align: center;
+        padding: 30px 20px;
+        width: 100%;
+        margin: 15px;
+    }
+}
+
+
+
+@media only screen and (max-width:26.5625em) { 
+    .container{
+        padding: 0%;
+        margin-left: 0px;
+    }
+
+    .container .heading{
+        font-size: 30px;
+    }
+
+    body{
+        background: linear-gradient(45deg,#7689de ,#a9dec3) ;
+    }
+    
+    .container .boxcont{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+    }
+    
+    .container .boxcont .box{
+        box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+        border-radius: 10px;
+        background-color: aliceblue;
+        text-align: center;
+        padding: 30px 20px;
+        width: 100%;
+        margin: 15px;
+    }
+}
+
+@media only screen and (max-width:48em) and (min-width:26.5625em){ 
+    .container{
+        margin-left: 0px;
+    }
+
+    .container .heading{
+        font-size: 30px;
+    }
+
+    body{
+        background: linear-gradient(45deg,#7689de ,#a9dec3) ;
+    }
+    
+    .container .boxcont{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 10px;
+    }
+    
+    .container .boxcont .box{
+        box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+        border-radius: 10px;
+        background-color: aliceblue;
+        text-align: center;
+        padding: 30px 20px;
+        width: 100%;
+        margin: 15px;
+    }
+}
+
+@media only screen and (max-width:64em) and (min-width:48em){
+    .container{
+        margin-left: 0px;
+    }
+
+    .container .heading{
+        font-size: 30px;
+    }
+
+    body{
+        background: linear-gradient(45deg,#7689de ,#a9dec3) ;
+    }
+    
+    .container .boxcont{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 10px;
+    }
+    
+    .container .boxcont .box{
+        box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+        border-radius: 10px;
+        background-color: aliceblue;
+        text-align: center;
+        padding: 30px 20px;
+        width: 100%;
+        margin: 15px;
+    }
+}
